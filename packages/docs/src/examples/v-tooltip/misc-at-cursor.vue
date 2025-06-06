@@ -14,9 +14,16 @@
   </div>
 </template>
 
-  <script setup>
+<script setup>
   import { ref } from 'vue'
 
   const cursor = ref(false)
+</script>
 
+<script>
+  export default {
+    data: () => ({
+      cursor: false,
+    }),
+  }
 </script>
